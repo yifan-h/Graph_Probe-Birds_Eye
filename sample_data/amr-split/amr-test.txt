@@ -1,0 +1,96 @@
+# AMR-English alignment release (generated on Fri Feb 2, 2018 at 16:13:17)
+
+# ::id bolt12_64556_5627.1 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Resolutely support the thread starter ! I compose a poem in reply :
+# ::alignments 0-1.1.4 0-1.1.4.r 1-1.1 3-1.1.3.1.1 4-1.1.3 4-1.1.3.1 4-1.1.3.1.r 5-1.1.1 5-1.1.1.r 6-1.2.1 7-1.2.2 9-1.2.2.2 11-1.2
+(m / multi-sentence 
+      :snt1 (s / support-01~e.1 :mode~e.5 imperative~e.5 
+            :ARG0 (y / you) 
+            :ARG1 (p / person~e.4 
+                  :ARG0-of~e.4 (s2 / start-01~e.4 
+                        :ARG1 (t / thread~e.3))) 
+            :manner~e.0 (r / resolute~e.0)) 
+      :snt2 (r2 / reply-01~e.11 
+            :ARG0 (i / i~e.6) 
+            :ARG2 (c / compose-02~e.7 
+                  :ARG0 i 
+                  :ARG1 (p2 / poem~e.9))))
+
+# ::id bolt12_64556_5627.2 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Pledge to fight to the death defending the Diaoyu Islands and the related islands
+# ::alignments 0-1 2-1.3 3-1.3.3.r 5-1.3.3 6-1.3.2 8-1.3.2.2.1.2.1 9-1.3.2.2.1.2.2 10-1.3.2.2 12-1.3.2.2.2.1 13-1.3.2.2.2
+(p / pledge-01~e.0 :mode imperative 
+      :ARG0 (y / you) 
+      :ARG2 (f / fight-01~e.2 
+            :ARG0 y 
+            :ARG2 (d2 / defend-01~e.6 
+                  :ARG0 y 
+                  :ARG1 (a / and~e.10 
+                        :op1 (i / island :wiki "Senkaku_Islands" 
+                              :name (n / name :op1 "Diaoyu"~e.8 :op2 "Islands"~e.9)) 
+                        :op2 (i2 / island~e.13 
+                              :ARG1-of (r / relate-01~e.12 
+                                    :ARG2 i)))) 
+            :manner~e.3 (d / die-01~e.5 
+                  :ARG1 y)))
+
+# ::id bolt12_64556_5627.3 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Fleets bumping fishing boats . Little evil Japanese ghosts stirring up trouble and unrest . With hearts of thieves and arrogant form , they again show their wolfish appearance
+# ::alignments 0-1.1.2 1-1.1 2-1.1.1.1 3-1.1.1 5-1.3.1.1.2 6-1.3.1.1.3 7-1.3.1.1.1.2.1 8-1.3.1.1 9-1.3.1 10-1.3.1 11-1.3.2 12-1.3 13-1.3.1.2 16-1.2.1.1.1.1 17-1.2.1.1.1.1.1.r 18-1.2.1.1.1.1.1 18-1.2.1.1.1.1.1.1 18-1.2.1.1.1.1.1.1.r 19-1.2.1.1.1 20-1.2.1.1.1.2.1 21-1.2.1.1.1.2 23-1.2.1 24-1.2.3 25-1.2 26-1.2.2.1 26-1.2.2.1.r 27-1.2.2.2 28-1.2.2
+(m / multi-sentence 
+      :snt1 (b / bump-01~e.1 
+            :ARG1 (b2 / boat~e.3 
+                  :purpose (f / fish-01~e.2)) 
+            :ARG2 (f2 / fleet~e.0)) 
+      :snt3 (s2 / show-01~e.25 
+            :ARG0 (t2 / they~e.23 
+                  :ARG0-of (h2 / have-03 
+                        :ARG1 (a4 / and~e.19 
+                              :op1 (h / heart~e.16 
+                                    :mod~e.17 (p / person~e.18 
+                                          :ARG0-of~e.18 (s3 / steal-01~e.18))) 
+                              :op2 (f3 / form~e.21 
+                                    :mod (a5 / arrogance~e.20))))) 
+            :ARG1 (a3 / appearance~e.28 
+                  :poss~e.26 t2~e.26 
+                  :mod (w / wolfish~e.27)) 
+            :mod (a2 / again~e.24)) 
+      :snt2 (a6 / and~e.12 
+            :op1 (s / stir-up-04~e.9,10 
+                  :ARG0 (g / ghost~e.8 
+                        :mod (c / country :wiki "Japan" 
+                              :name (n / name :op1 "Japan"~e.7)) 
+                        :mod (l / little~e.5) 
+                        :mod (e / evil~e.6)) 
+                  :ARG1 (u / unrest~e.13)) 
+            :op2 (m2 / make-trouble-06~e.11 
+                  :ARG0 g)))
+
+# ::id bolt12_64556_5627.4 ::amr-annotator SDL-AMR-09 ::preferred
+# ::tok Never go back to that time , our humiliating appearance when signing the treaties . China be strong , swords be sharp and knives be shining , let 's bury the approaching enemies !
+# ::alignments 0-1.1.2 0-1.1.2.r 0-1.1.5 1-1.1 2-1.1 2-1.1.6 2-1.1.6.r 3-1.1.4.r 4-1.1.4.1 5-1.1.4 5-1.1.4.2.r 7-1.1.4.2.1 7-1.1.4.2.1.r 8-1.1.4.2.2 9-1.1.4.2 10-1.1.4.2.3.r 11-1.1.4.2.3 13-1.1.4.2.3.2 15-1.2.2.2.1 17-1.2 19-1.3.1.2 21-1.3.1 22-1.3 23-1.3.2.2 25-1.3.2 27-1.1.1 27-1.1.1.r 27-1.2.1 27-1.2.1.r 27-1.3.1.1 27-1.3.2.1 27-1.3.2.1.r 28-1.4.1 28-1.4.1.r 28-1.4.2 29-1.4 31-1.4.3.1 32-1.4.3 33-1.1.1.r
+(m / multi-sentence 
+      :snt1 (g / go-back-19~e.1,2 :mode~e.27,33 imperative~e.27 :polarity~e.0 -~e.0 
+            :ARG1 (y / you) 
+            :ARG2~e.3 (t2 / time~e.5 
+                  :mod (t3 / that~e.4) 
+                  :time-of~e.5 (a / appear-01~e.9 
+                        :ARG1~e.7 (w / we~e.7) 
+                        :ARG0-of (h / humiliate-01~e.8) 
+                        :time~e.10 (s / sign-02~e.11 
+                              :ARG0 w 
+                              :ARG1 (t / treaty~e.13)))) 
+            :time (e / ever~e.0) 
+            :direction~e.2 (b / back~e.2)) 
+      :snt2 (s2 / strong-02~e.17 :mode~e.27 imperative~e.27 
+            :ARG1 (c / country :wiki "China" 
+                  :name (n / name :op1 "China"~e.15))) 
+      :snt3 (a2 / and~e.22 
+            :op1 (s3 / sharp-02~e.21 :mode imperative~e.27 
+                  :ARG1 (s4 / sword~e.19)) 
+            :op2 (s5 / shine-01~e.25 :mode~e.27 imperative~e.27 
+                  :ARG0 (k / knife~e.23))) 
+      :snt4 (b3 / bury-01~e.29 :mode~e.28 imperative~e.28 
+            :ARG0 (w2 / we~e.28) 
+            :ARG1 (e2 / enemy~e.32 
+                  :ARG1-of (a4 / approach-01~e.31))))
