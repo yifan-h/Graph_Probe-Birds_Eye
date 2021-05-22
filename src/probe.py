@@ -275,11 +275,11 @@ def mi_bert_ptb(args, npeet=False, uncontext=False):
     # load embeddings
     graph_emb = graph_embeddings(args, global_graph, doc_id, sen_id)
     if uncontext:
-        # bert_emb = load_glove(args, sentences)
-        bert_emb = load_elmo(args, sentences)
+        bert_emb = load_glove(args, sentences)
+        # bert_emb = load_elmo(args, sentences)
     else:
-        # bert_emb_paths = bert_embeddings(args, sentences)
-        bert_emb_paths = load_elmos(args, sentences)
+        bert_emb_paths = bert_embeddings(args, sentences)
+        # bert_emb_paths = load_elmos(args, sentences)
         bert_emb = np.load(bert_emb_paths[0], allow_pickle=True)
 
     # initialize mi
@@ -343,11 +343,11 @@ def mi_bert_amr(args, uncontext=False):
     amr_s = s_train + s_dev + s_test
     print(amr_s[45672], amr_s[599])
     graph_emb, bert_emb_paths = get_embeddings(args, amr_s)
-    bert_emb_paths = load_elmos(args, amr_s, dataset='amr')
+    # bert_emb_paths = load_elmos(args, amr_s, dataset='amr')
     s_num = len(graph_emb)
     if uncontext:
-        # bert_emb = load_glove(args, amr_s, dataset='amr')
-        bert_emb = load_elmo(args, amr_s, dataset='amr')
+        bert_emb = load_glove(args, amr_s, dataset='amr')
+        # bert_emb = load_elmo(args, amr_s, dataset='amr')
     else:
         bert_emb = np.load(bert_emb_paths[0], allow_pickle=True)
 
