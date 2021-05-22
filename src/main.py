@@ -17,35 +17,35 @@ def main_func(args):
         device = torch.device("cuda:" + str(args.device))
     args.device = device
 
-'''
-"ptb" = penn tree bank
-"amr" = amr bank
-"_bert" = no data split
-"_graph" = train/dev/test split (default)
-'''
+    '''
+    "ptb" = penn tree bank
+    "amr" = amr bank
+    "_bert" = no data split
+    "_graph" = train/dev/test split (default)
+    '''
 
-## function descriptions
-## please refer to specific py file for sub-function descriptions
-'''
-mi_bert_ptb: probe BERT layers with PTB dataset (uncontext=True for ELMo0)
-mi_bert_amr: probe BERT layers with AMR dataset (uncontext=True for ELMo0)
-mi_mlps_ptb: probe GloVe embeddings with PTB dataset
-mi_mlps_amr: probe GloVe embeddings with AMR dataset
-test_ge_ptb: test the graph embedding quality with PTB dataset
-test_ge_amr: test the graph embedding quality with AMR dataset
-test_bert_ptb: test the BERT embedding quality (recover original graphs) with PTB dataset
-test_bert_amr: test the BERT embedding quality (recover original graphs) with AMR dataset
-test_mi_ptb: calculate MI upper bound (global) with PTB dataset (different levels of noise)
-test_mi_amr: calculate MI upper bound (global) with AMR dataset (different levels of noise)
-mi_noise_ptb: calculate MI estimate I(X,G) (local) with PTB dataset (different corrupted types of edges)
-mi_noise_amr: calculate MI estimate I(X,G) (local) with AMR dataset (different corrupted types of edges)
-test_random_ptb: calculate classifier accuracy (local) with PTB dataset (different corrupted types of edges)
-test_random_amr: calculate classifier accuracy (local) with AMR dataset (different corrupted types of edges)
-'''
+    ## function descriptions
+    ## please refer to specific py file for sub-function descriptions
+    '''
+    mi_bert_ptb: probe BERT layers with PTB dataset (uncontext=True for ELMo0)
+    mi_bert_amr: probe BERT layers with AMR dataset (uncontext=True for ELMo0)
+    mi_mlps_ptb: probe GloVe embeddings with PTB dataset
+    mi_mlps_amr: probe GloVe embeddings with AMR dataset
+    test_ge_ptb: test the graph embedding quality with PTB dataset
+    test_ge_amr: test the graph embedding quality with AMR dataset
+    test_bert_ptb: test the BERT embedding quality (recover original graphs) with PTB dataset
+    test_bert_amr: test the BERT embedding quality (recover original graphs) with AMR dataset
+    test_mi_ptb: calculate MI upper bound (global) with PTB dataset (different levels of noise)
+    test_mi_amr: calculate MI upper bound (global) with AMR dataset (different levels of noise)
+    mi_noise_ptb: calculate MI estimate I(X,G) (local) with PTB dataset (different corrupted types of edges)
+    mi_noise_amr: calculate MI estimate I(X,G) (local) with AMR dataset (different corrupted types of edges)
+    test_random_ptb: calculate classifier accuracy (local) with PTB dataset (different corrupted types of edges)
+    test_random_amr: calculate classifier accuracy (local) with AMR dataset (different corrupted types of edges)
+    '''
 
     if args.task == 'ptb_bert':
         # mi_noise_ptb(args, pos=True)
-        # mi_bert_ptb(args)
+        mi_bert_ptb(args)
         # mi_bert_ptb(args, uncontext=True)
         # test_mi_ptb(args)
         # mi_noise_ptb(args)
