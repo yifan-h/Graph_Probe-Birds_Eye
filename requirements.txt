@@ -1,0 +1,10 @@
+tqdm==4.52.0
+networkx==2.5
+torch==1.8.1
+torchvision==0.9.1
+numpy==1.19.2
+scikit-learn==0.23.2
+gensim==3.8.3
+transformers==4.6.0
+penman==1.1.0
+conllu==4.2.1
