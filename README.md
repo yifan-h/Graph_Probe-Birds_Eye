@@ -28,7 +28,7 @@ Please see the [paper](https://arxiv.org/abs/2105.02629) for more details.
 
 ### Requirements
 
-Recent versions of: tqdm, networkx, pytorch, numpy, sklearn, gensim, transformers, penman, and conllu are required. You can install those required packages using the following command:
+[PyTorch](https://pytorch.org/get-started/locally/) should be installed based on your system. For other libraries, recent versions of: tqdm, networkx, numpy, sklearn, gensim, transformers, penman, and conllu are required. You can install those required packages using the following command:
 
 	$ pip install -r requirements.txt
 
