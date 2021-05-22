@@ -42,7 +42,7 @@ def main_func(args):
     test_random_ptb: calculate classifier accuracy (local) with PTB dataset (different corrupted types of edges)
     test_random_amr: calculate classifier accuracy (local) with AMR dataset (different corrupted types of edges)
     '''
-
+    
     if args.task == 'ptb_bert':
         # mi_noise_ptb(args, pos=True)
         mi_bert_ptb(args)
@@ -52,6 +52,7 @@ def main_func(args):
         # test_ge_ptb(args)
         # test_ge_ptb(args, data_split=False)
         # mi_mlps_ptb(args)
+        pass
     elif args.task == 'ptb_graph':
         # test_random_ptb(args)
         # test_random_ptb(args, corrupt=True)
@@ -59,6 +60,7 @@ def main_func(args):
         # test_bert_ptb(args)
         # test_bert_ptb(args, model_name='elmo')
         # test_bert_ptb(args, model_name='glove')
+        pass
     elif args.task == 'amr_bert':
         # mi_bert_ptb(args, npeet=True)
         # mi_bert_amr(args)
@@ -68,6 +70,7 @@ def main_func(args):
         # test_ge_ptb(args)
         # test_ge_amr(args, data_split=False)
         # mi_mlps_amr(args)
+        pass
     elif args.task == 'amr_graph':
         # test_random_amr(args)
         # test_random_amr(args, corrupt=True)
@@ -75,7 +78,7 @@ def main_func(args):
         # test_bert_amr(args)
         # test_bert_amr(args, model_name='elmo')
         # test_bert_amr(args, model_name='glove')
-
+        pass
     return
 
 
