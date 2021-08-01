@@ -12,19 +12,24 @@ Please see the [paper](https://arxiv.org/abs/2105.02629) for more details.
 
 *Note:* If you make use of this code, or the probing model in your work, please cite the following paper *(formal bibliograph will be updated soon)*:
 
-    @article{DBLP:journals/corr/abs-2105-02629,
-      author    = {Yifan Hou and Mrinmaya Sachan},
-      title     = {Bird's Eye: Probing for Linguistic Graph Structures with a Simple Information-Theoretic Approach},
-      journal   = {CoRR},
-      volume    = {abs/2105.02629},
-      year      = {2021},
-      url       = {https://arxiv.org/abs/2105.02629},
-      archivePrefix = {arXiv},
-      eprint    = {2105.02629},
-      timestamp = {Wed, 12 May 2021 15:54:31 +0200},
-      biburl    = {https://dblp.org/rec/journals/corr/abs-2105-02629.bib},
-      bibsource = {dblp computer science bibliography, https://dblp.org}
-    }
+	@inproceedings{DBLP:conf/acl/HouS20,
+	  author    = {Yifan Hou and Mrinmaya Sachan},
+	  editor    = {Chengqing Zong and Fei Xia and Wenjie Li and Roberto Navigli},
+	  title     = {Bird's Eye: Probing for Linguistic Graph Structures with a Simple Information-Theoretic Approach},
+	  booktitle = {Proceedings of the 59th Annual Meeting of the Association for Computational
+		       Linguistics and the 11th International Joint Conference on Natural
+		       Language Processing, {ACL/IJCNLP} 2021, (Volume 1: Long Papers), Virtual
+		       Event, August 1-6, 2021},
+	  pages     = {1844--1859},
+	  publisher = {Association for Computational Linguistics},
+	  year      = {2021},
+	  url       = {https://doi.org/10.18653/v1/2021.acl-long.145},
+	  doi       = {10.18653/v1/2021.acl-long.145},
+	  timestamp = {Fri, 30 Jul 2021 16:41:20 +0200},
+	  biburl    = {https://dblp.org/rec/conf/acl/HouS20.bib},
+	  bibsource = {dblp computer science bibliography, https://dblp.org}
+	}
+
 
 ### Requirements
 
